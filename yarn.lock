@@ -794,19 +794,19 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@craco/craco@^2.4.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@craco/craco/-/craco-2.5.0.tgz#149df649d9d0fb0fcd0994fc597afd2f975b280b"
-  integrity sha512-vD/yWCoWs2u6EHLn1UD0OxAu9f4ISEls72GOWrJg2NzKJmwcRNG/AjFYJfeVHprQ6cPKYNGKltaFRPbzAydWpw==
+"@craco/craco@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@craco/craco/-/craco-3.0.1.tgz#95069d972f38c78c3388ea391437cd6397af143b"
+  integrity sha512-3O80xWO3nMxePhJ2mnkfJP7xsKCiBLm8YYagII962S1N63Ww9C/RmXMLtjc0p5xr6+naqSn6tV0t9GMwVwyBdg==
   dependencies:
     cross-spawn "6.0.5"
     lodash.mergewith "4.6.1"
     webpack-merge "4.1.4"
 
-"@craco/craco@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@craco/craco/-/craco-3.0.1.tgz#95069d972f38c78c3388ea391437cd6397af143b"
-  integrity sha512-3O80xWO3nMxePhJ2mnkfJP7xsKCiBLm8YYagII962S1N63Ww9C/RmXMLtjc0p5xr6+naqSn6tV0t9GMwVwyBdg==
+"@craco/craco@^2.4.0":
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@craco/craco/-/craco-2.5.0.tgz#149df649d9d0fb0fcd0994fc597afd2f975b280b"
+  integrity sha512-vD/yWCoWs2u6EHLn1UD0OxAu9f4ISEls72GOWrJg2NzKJmwcRNG/AjFYJfeVHprQ6cPKYNGKltaFRPbzAydWpw==
   dependencies:
     cross-spawn "6.0.5"
     lodash.mergewith "4.6.1"
@@ -1774,7 +1774,7 @@ babel-plugin-dynamic-import-node@2.2.0:
   dependencies:
     object.assign "^4.1.0"
 
-babel-plugin-import@1.11.0:
+babel-plugin-import@^1.11.0:
   version "1.11.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-import/-/babel-plugin-import-1.11.0.tgz#78ac908e6b225206babb734e19eae5f78d6d1035"
   integrity sha512-de9dWdU1YjmWRPYurlHRKD2hTd24z0bIQ0/JgyXqLMXML+TsvEkVhtqzOsNtu9MmCuvwBiTTTjZBbZXA1Xu7TQ==
@@ -2760,11 +2760,12 @@ cosmiconfig@^5.0.0, cosmiconfig@^5.0.5, cosmiconfig@^5.0.6:
     js-yaml "^3.9.0"
     parse-json "^4.0.0"
 
-craco-antd@1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/craco-antd/-/craco-antd-1.4.0.tgz#048906f45fb685357714983f567109fdc8c6e59d"
-  integrity sha512-cJCi3LK4Oksuahyy7wbbm1xJ/d4iU1JS3EVwZj1GknwDaiBc985t1a7L0vfw31wcRvN61FXqo9SIsgJsIk3xZQ==
+craco-antd@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/craco-antd/-/craco-antd-1.5.0.tgz#9ff5e717d760c8b13f81fe1f3a4f3f95855b4045"
+  integrity sha512-qJR1LemgmTye/tPeL3e3se2bM9tJzn3iaimeHR2fIerBNcz+p4aGrnO29RmQ1+23/ksd5F324zePMrH4cMMcQg==
   dependencies:
+    babel-plugin-import "^1.11.0"
     craco-less "^1.2.0"
     less-vars-to-js "^1.3.0"
 
