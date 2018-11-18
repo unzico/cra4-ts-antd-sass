@@ -2,13 +2,13 @@
 
 - create-react-app v2.x
 - TypeScript v3.x
-- Support for absolute paths via [tsconfig.paths.json](https://github.com/unzico/cra-2-typescript-sass-antd/blob/master/paths.json) and [craco](https://github.com/sharegate/craco) (see [example](https://github.com/unzico/cra-2-typescript-sass-antd/blob/master/src/components/NestedComponent/NestedComponent.tsx))
+- Support for absolute paths via [tsconfig.paths.json](./tsconfig.paths.json) and [craco](https://github.com/sharegate/craco) (see [example](./src/components/NestedComponent/NestedComponent.tsx))
 - SASS support
 - Includes [Ant Design](https://ant.design/) using [craco-antd](https://github.com/FormAPI/craco-antd)
 
 ## Adding another absolute path
 
-**Important**: Don't forget to extend your `tsconfig.json` file (see [tsconfig file](https://github.com/unzico/cra-2-typescript-sass-antd/blob/master/tsconfig.json))
+**Important**: Don't forget to extend your `tsconfig.json` file (see [tsconfig file](./tsconfig.json))
 
 1. Add new path to `tsconfig.paths.json` file.
 2. Add new path to `craco.config.js` file
