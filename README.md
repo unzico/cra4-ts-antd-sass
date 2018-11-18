@@ -1,3 +1,74 @@
+# Features
+
+- create-react-app v2.x
+- TypeScript v3.x
+- Support for absolute paths via [tsconfig.paths.json](./tsconfig.paths.json) and [craco](https://github.com/sharegate/craco) (see [example](./src/components/NestedComponent/NestedComponent.tsx))
+- SASS support
+- Includes [Ant Design](https://ant.design/) using [craco-antd](https://github.com/FormAPI/craco-antd)
+
+## Adding another absolute path
+
+**Important**: Don't forget to extend your `tsconfig.json` file (see [tsconfig file](./tsconfig.json))
+
+1. Add new path to `tsconfig.paths.json` file.
+2. Add new path to `craco.config.js` file
+
+Let's say, we want to import files from our utils subfolder using `@utils`, the updated config files would look like this:
+
+```json
+// tsconfig.paths.json
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@utils/*": ["src/utils/*"]
+    }
+  }
+}
+```
+
+```javascript
+// craco.config.js
+const path = require("path");
+...
+
+module.exports = {
+  ...,
+  webpack: {
+    alias: {
+      "@": path.resolve(__dirname, "src/"),
+      "@utils": path.resolve(__dirname, "src/utils/"),
+    }
+  }
+};
+```
+
+We are then able to import files from the utils subfolder.
+
+```javascript
+// NestedComponent.tsx
+import * as React from "react";
+import AbsolutePathComponent from "@/AbsolutePathComponent";
+import sayHello from "@utils/sayHello";
+
+type Props = {};
+
+const NestedComponent: React.SFC<Props> = ({ children }) => {
+  sayHello();
+
+  return (
+    <span>
+      <AbsolutePathComponent>{children}</AbsolutePathComponent>
+    </span>
+  );
+};
+
+export default NestedComponent;
+```
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
