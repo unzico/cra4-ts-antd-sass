@@ -3,6 +3,8 @@ import { Button } from "antd";
 import logo from "./logo.svg";
 import "./App.sass";
 
+import { NestedComponent } from "./components/NestedComponent";
+
 class App extends Component {
   render() {
     return (
@@ -19,7 +21,7 @@ class App extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Learn React
+              <NestedComponent>Learn React</NestedComponent>
             </a>
           </Button>
         </header>
