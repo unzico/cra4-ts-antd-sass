@@ -8,10 +8,11 @@
 
 ## Adding another absolute path
 
-**Important**: Don't forget to extend your `tsconfig.json` file (see [tsconfig file](./tsconfig.json))
+**Important**: Don't forget to extend your `tsconfig.json` file (see [tsconfig file](./tsconfig.json#L2))
 
-1. Add new path to `tsconfig.paths.json` file.
-2. Add new path to `craco.config.js` file
+Steps:
+1. Add the new path to your `tsconfig.paths.json` file.
+2. Add the new path to your `craco.config.js` file
 
 Let's say, we want to import files from our utils subfolder using `@utils`, the updated config files would look like this:
 
