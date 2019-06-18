@@ -1,7 +1,7 @@
 # Features
 
-- create-react-app v2.x
-- TypeScript v3.x
+- create-react-app v3.0.1
+- TypeScript v3.4.5
 - Support for absolute path imports via [tsconfig.paths.json](./tsconfig.paths.json) and [craco](https://github.com/sharegate/craco) (see [example](./src/components/NestedComponent/NestedComponent.tsx))
 - SASS support
 - Includes [Ant Design](https://ant.design/) using [craco-antd](https://github.com/FormAPI/craco-antd)
