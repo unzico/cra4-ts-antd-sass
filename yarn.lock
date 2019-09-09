@@ -996,13 +996,13 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@craco/craco@5.2.1":
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/@craco/craco/-/craco-5.2.1.tgz#d0a8dd7f1eb1c55a7430a5f12534a4ccfbeb8cd0"
-  integrity sha512-NJfGDeDbDd7yzHvnnf1pTpHg661RtQsC4J5g1qs0lswV+DnVcwG4vrQFdnKm/DkWNzk7lJuG0AdadM2IKMtx+A==
+"@craco/craco@5.4.0":
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/@craco/craco/-/craco-5.4.0.tgz#0e74e3e034f7f2228d0d8935b7b432de05ceec48"
+  integrity sha512-g5htgEDTgC2d4N2luk9c1xHdAT/4qmfp5/JzqI2x5lvmmxtCJXJLMfqrxOx1kobinYWOqdipPmLYVrF10yp0Rw==
   dependencies:
     cross-spawn "^6.0.5"
-    lodash.mergewith "^4.6.1"
+    lodash.mergewith "^4.6.2"
     webpack-merge "^4.2.1"
 
 "@csstools/convert-colors@^1.4.0":
@@ -6705,10 +6705,10 @@ lodash.memoize@^4.1.2:
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
 
-lodash.mergewith@^4.6.1:
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.1.tgz#639057e726c3afbdb3e7d42741caa8d6e4335927"
-  integrity sha512-eWw5r+PYICtEBgrBE5hhlT6aAa75f411bgDz/ZL2KZqYV03USvucsxcHUIlGTDTECs1eunpI7HOV7U+WLDvNdQ==
+lodash.mergewith@^4.6.2:
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.2.tgz#617121f89ac55f59047c7aec1ccd6654c6590f55"
+  integrity sha512-GK3g5RPZWTRSeLSpgP8Xhra+pnjBC56q9FZYe1d5RN3TJ35dbkGy3YqBSMbyCrlbi+CM9Z3Jk5yTL7RCsqboyQ==
 
 lodash.sortby@^4.7.0:
   version "4.7.0"
