@@ -1,7 +1,7 @@
 # Features
 
-- create-react-app v3.0.1
-- TypeScript v3.4.5
+- create-react-app v3.3.0
+- TypeScript v4.7.3
 - Support for absolute path imports via [tsconfig.paths.json](./tsconfig.paths.json) and [craco](https://github.com/sharegate/craco) (see [example](./src/components/NestedComponent/NestedComponent.tsx))
 - SASS support
 - Includes [Ant Design](https://ant.design/) using [craco-antd](https://github.com/FormAPI/craco-antd)
@@ -11,6 +11,7 @@
 **Important**: Don't forget to extend your `tsconfig.json` file (see [tsconfig file](./tsconfig.json#L2))
 
 Steps:
+
 1. Add the new path to your `tsconfig.paths.json` file.
 2. Add the new path to your `craco.config.js` file
 
