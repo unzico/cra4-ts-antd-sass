@@ -1,6 +1,6 @@
 {
-  "name": "migrate-cra-2",
-  "version": "0.1.0",
+  "name": "cra3-ts-antd-sass",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "craco start",
