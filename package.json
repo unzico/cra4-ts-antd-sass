@@ -16,7 +16,7 @@
     "typescript": "3.7.3"
   },
   "dependencies": {
-    "@craco/craco": "5.5.0",
+    "@craco/craco": "5.6.2",
     "antd": "3.23.6",
     "craco-antd": "1.14.1",
     "node-sass": "4.12.0",
