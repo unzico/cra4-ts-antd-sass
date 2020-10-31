@@ -19,7 +19,7 @@
     "@craco/craco": "5.7.0",
     "antd": "4.7.3",
     "craco-antd": "1.19.0",
-    "node-sass": "4.14.1",
+    "node-sass": "5.0.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-scripts": "3.4.4"
