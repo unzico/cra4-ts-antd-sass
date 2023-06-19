@@ -18,7 +18,7 @@
   "dependencies": {
     "@craco/craco": "6.1.2",
     "antd": "4.16.1",
-    "craco-antd": "1.19.0",
+    "craco-antd": "2.0.0",
     "node-sass": "5.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
