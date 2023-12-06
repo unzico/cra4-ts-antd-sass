@@ -9,7 +9,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "@types/jest": "26.0.23",
+    "@types/jest": "29.5.11",
     "@types/node": "15.12.1",
     "@types/react": "17.0.9",
     "@types/react-dom": "17.0.6",
