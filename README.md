@@ -1,3 +1,7 @@
+# No longer maintained
+
+create-react-app is outdated. Please consider something else like [Vite](https://vitejs.dev/).
+
 # Features
 
 - create-react-app v4.x
